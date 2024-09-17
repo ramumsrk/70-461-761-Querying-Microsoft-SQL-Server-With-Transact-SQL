@@ -1,0 +1,39 @@
+USE [70-461]
+
+Changed database context to '70-461'.
+
+SELECT --Projection
+       1 + 1 AS "Addition"
+
+Addition   
+-----------
+          2
+
+(1 rows affected)
+
+SELECT -- Projection
+       1 - 1 AS "Subtraction"
+
+Subtraction
+-----------
+          0
+
+(1 rows affected)
+
+SELECT -- Projection
+       1 * 1 AS "Multiplication"
+
+Multiplication
+--------------
+             1
+
+(1 rows affected)
+
+SELECT -- Projection
+       1 / 1 AS "Division"
+
+Division   
+-----------
+          1
+
+(1 rows affected)

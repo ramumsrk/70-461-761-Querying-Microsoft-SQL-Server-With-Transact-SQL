@@ -1,0 +1,12 @@
+USE [70-461]
+
+Changed database context to '70-461'.
+
+SELECT -- Projection
+       11 * 12 AS [TheAnswer]
+
+TheAnswer  
+-----------
+        132
+
+(1 rows affected)

@@ -1,0 +1,43 @@
+USE [70-461]
+
+Changed database context to '70-461'.
+
+-- Problem 1
+SELECT -- Projection
+       4 + 9 AS "Addition"
+
+Addition   
+-----------
+         13
+
+(1 rows affected)
+
+-- Problem 2
+SELECT -- Projection
+       15 - 26 AS "Subtraction"
+
+Subtraction
+-----------
+        -11
+
+(1 rows affected)
+
+-- Problem 3
+SELECT -- Projection
+       ( (24 * 4)  + 3 ) AS [Multiplication followed by addition]
+
+Multiplication followed by addition
+-----------------------------------
+                                 99
+
+(1 rows affected)
+
+-- Problem 4
+SELECT -- Projection
+       48 / 4 AS [Division]
+
+Division   
+-----------
+         12
+
+(1 rows affected)
