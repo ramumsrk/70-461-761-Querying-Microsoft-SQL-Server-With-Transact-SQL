@@ -1,0 +1,22 @@
+USE [70-461]
+
+Changed database context to '70-461'.
+
+CREATE TABLE first_table
+(
+    first_column INT
+)
+
+
+INSERT INTO first_table
+(first_column)
+VALUES
+(100),
+(201),
+(334),
+(101),
+(101),
+(101)
+
+
+(6 rows affected)

@@ -1,0 +1,29 @@
+USE [70-461]
+
+Changed database context to '70-461'.
+
+CREATE TABLE [SportTeams]
+(
+    TeamName NVARCHAR(10)
+)
+
+
+INSERT INTO [70-461].dbo.[SportTeams]
+(TeamName)
+VALUES
+('Wolf'),
+('FC')
+
+
+(2 rows affected)
+
+SELECT -- Projection
+       TeamName
+  FROM [70-461].dbo.[SportTeams]
+
+TeamName  
+----------
+Wolf      
+FC        
+
+(2 rows affected)

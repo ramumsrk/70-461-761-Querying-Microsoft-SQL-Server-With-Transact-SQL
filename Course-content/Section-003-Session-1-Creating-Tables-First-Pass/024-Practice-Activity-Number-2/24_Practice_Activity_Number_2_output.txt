@@ -1,0 +1,43 @@
+USE [70-461]
+
+Changed database context to '70-461'.
+
+CREATE TABLE [70-461].dbo.[PrimeNumbers]
+(
+    integers INT
+)
+
+
+INSERT INTO [70-461].dbo.[PrimeNumbers]
+(integers)
+VALUES
+(2),
+(3),
+(5),
+(7),
+(11)
+
+
+(5 rows affected)
+
+SELECT -- Projection
+       integers
+  FROM [70-461].dbo.[PrimeNumbers]
+
+integers   
+-----------
+          2
+          3
+          5
+          7
+         11
+
+(5 rows affected)
+
+DELETE FROM [70-461].dbo.[PrimeNumbers]
+
+
+(5 rows affected)
+
+DROP TABLE [70-461].dbo.[PrimeNumbers]
+

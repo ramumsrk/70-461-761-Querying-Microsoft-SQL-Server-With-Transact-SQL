@@ -1,0 +1,18 @@
+USE [70-461]
+
+Changed database context to '70-461'.
+
+SELECT -- Projection
+       first_column
+  FROM [70-461].dbo.first_table
+
+first_column
+------------
+         100
+         201
+         334
+         101
+         101
+         101
+
+(6 rows affected)
